@@ -131,7 +131,7 @@ class Network(object):
         \partial a for the output activations."""
         return (output_activations-y)
 
-#### Miscellaneous functions
+### Miscellaneous functions
 def sigmoid(z):
     """The sigmoid function."""
     return 1.0/(1.0+np.exp(-z))
