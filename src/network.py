@@ -13,8 +13,10 @@ and omits many desirable features.
 # Standard library
 import random
 
-# Third-party libraries
+
 import numpy as np
+# Third-party libraries
+
 
 class Network(object):
 
